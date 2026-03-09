@@ -9,7 +9,7 @@ function setup() {
 function draw() {
   
 let vol=mic.getLevel();
-  let h=map(vol,0,1,0,2000);
+  let h=map(vol,0,1,0,20000);
   background(254,196,255); //color del fons
   // el primer numero es el nivel de vermell de vermell 'R' el segon, es el nivell de verd 'G' i el tercer, 'G' per tant RGB en htm. Dintre de background o fons
    fill(224,172,105); //color de la cara exterior
